@@ -35,3 +35,10 @@ header{
     border-radius: 6px;
     padding: 10px;
 }
+
+/* main part */
+main{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
