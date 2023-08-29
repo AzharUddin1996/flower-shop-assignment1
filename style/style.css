@@ -133,16 +133,25 @@ header{
     color: gray;
 }
 .instapic img{
-    padding-right: 50px;
-    width: 220px;
+    width: 245px;
 }
 .instapic{
-    width: 990px;
+    width: 1000px;
     margin: 0 auto;
 }
 .main1{
-    background-color: rebeccapurple;
-    background-image: url("");
+    background-image: url('/Rectangle\ 9.png');
+    padding: 50px;
+
+}
+.main1 h1{
+    font-size: 30px;
+}
+.main1 input{
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
 }
 footer{
     background-color: black;
