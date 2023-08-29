@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #efdce0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.flower-info{
+    width: 50%;
+    padding: 100px;
+}
+.flower-info h1{
+    font-size: 60px;
+}
+.flower-info p{
+    margin: 10px 0px;
+}
+.flower img{
+    max-width: 80%;
+    margin-left: 20px;
+    height: auto;
+}
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
