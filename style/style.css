@@ -39,10 +39,18 @@ header{
 
 /* main part */
 main{
-    width: 1000px;
-    margin: 0 auto;
+      width: 1000px;
+    margin: auto;
     padding: 50px;
     text-align: center;
+}
+.our-featured-flowers{
+    margin-top: 50px;
+}
+.our-featured-flowers >p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
 }
 .flower-tree{
     display: flex;
@@ -61,4 +69,49 @@ main{
 }
 .flower-tree a{
     display: block;
+}
+/*game*/
+.game-part{
+    background-color: #f4eeee;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-radius: 10px;
+}
+.game-part div{
+    padding: 50px;
+}
+.game-part div a{
+    display: block;
+    text-decoration: none;
+}
+/* hot-deal-section */
+.hot-deal-section{
+    background-color: #f4eeee;
+
+}
+.extra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hot-deal{
+    padding: 50px 150px;
+}
+
+.hot-deal h3{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.off{
+    color: #E55473;
+}
+.hot-deal-section div> img{
+    height: 200px;
 }
